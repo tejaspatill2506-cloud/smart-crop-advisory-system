@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Crop Advisory</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>🌱 Smart Crop Advisory System</h2>
+
+<label>City:</label>
+<input type="text" id="city"><br><br>
+
+<label>Soil Type:</label>
+<select id="soil">
+  <option>Clay</option>
+  <option>Loamy</option>
+  <option>Black</option>
+</select><br><br>
+
+<label>Season:</label>
+<select id="season">
+  <option>Kharif</option>
+  <option>Rabi</option>
+</select><br><br>
+
+<button onclick="getAdvice()">Get Advice</button>
+
+<div id="output"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
